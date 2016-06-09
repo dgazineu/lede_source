@@ -87,6 +87,18 @@ define Device/firewrt
 endef
 TARGET_DEVICES += firewrt
 
+define Device/gb-n1
+  DTS := GB-N1
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+endef
+
+define Device/gb-n2
+  DTS := GB-N2
+  IMAGE_SIZE := $(ralink_default_fw_size_16M)
+endef
+
+TARGET_DEVICES += gb-n1 gb-n2
+
 define Device/pbr-m1
   DTS := PBR-M1
   IMAGE_SIZE := $(ralink_default_fw_size_16M)
