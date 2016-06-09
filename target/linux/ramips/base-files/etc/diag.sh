@@ -61,6 +61,8 @@ get_status_led() {
 	dir-615-h1|\
 	dir-620-a1|\
 	dir-620-d1|\
+	gb-n1|\
+	gb-n2|\
 	hpm|\
 	hw550-3g|\
 	miniembwifi|\
